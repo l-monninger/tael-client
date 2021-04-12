@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Collection} from "./components/Collection/Collection"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <Collection name="New Collection" tags={[{},]}></Collection>
       </header>
     </div>
   );
